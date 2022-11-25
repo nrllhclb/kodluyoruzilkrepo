@@ -1,0 +1,33 @@
+!SESSION 2022-08-17 20:55:25.843 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-08-17 20:56:02.612
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-08-17 20:56:02.686
+!MESSAGE Log4j initialized with config file C:\Users\celeb\Desktop\projects\stm\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-08-17 20:56:07.867
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-08-22 18:06:36.019 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-08-22 18:06:51.393
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-08-22 18:06:51.481
+!MESSAGE Log4j initialized with config file C:\Users\celeb\Desktop\projects\stm\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-08-22 18:06:55.978
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-08-22 18:13:55.756
+!MESSAGE Indexed 'blinky_m' (24 sources, 85 headers) in 5.28 sec: 5,293 declarations; 27,067 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0062%)

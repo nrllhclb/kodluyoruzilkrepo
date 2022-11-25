@@ -1,0 +1,21 @@
+18:20:10 **** Incremental Build of configuration Debug for project blinky_m ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "blinky_m.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\celeb\Desktop\projects\stm\blinky_m\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinky_m.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinky_m.elf
+ 
+arm-none-eabi-size   blinky_m.elf 
+arm-none-eabi-objdump -h -S  blinky_m.elf  > "blinky_m.list"
+   text	   data	    bss	    dec	    hex	filename
+  10788	     20	   1716	  12524	   30ec	blinky_m.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinky_m.list
+ 
+18:20:15 **** Incremental Build of configuration Debug for project blinky_m ****
+make -j16 all 
+arm-none-eabi-size   blinky_m.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10788	     20	   1716	  12524	   30ec	blinky_m.elf
+Finished building: default.size.stdout
+ 
